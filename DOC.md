@@ -21,3 +21,10 @@ vue -V
 ```
 vue init webpack project_name
 ```
+6.启动
+```
+cd project_name
+npm run dev
+http://localhost:8080
+
+```
