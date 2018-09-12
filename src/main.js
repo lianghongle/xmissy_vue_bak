@@ -6,10 +6,21 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('todo-item', {
+  props: ['todo'],
+  template: '<li>{{ todo.text }}</li>'
+})
+
 /* eslint-disable no-new */
-new Vue({
+var vue = new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  data() {
+    return {
+      msg:"test msg"
+    }
+  }
 })
+console.log(vue.msg)

@@ -28,3 +28,7 @@ npm run dev
 http://localhost:8080
 
 ```
+7.安装element
+```
+npm i element-ui -S
+```
