@@ -32,3 +32,8 @@ http://localhost:8080
 ```
 npm i element-ui -S
 ```
+
+8.Vuex
+```
+npm install vuex --save
+```
